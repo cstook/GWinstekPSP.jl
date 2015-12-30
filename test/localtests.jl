@@ -60,4 +60,25 @@ psp_setrelayoff(io_psp603)
 
 psp_savepreset(io_psp603)
 
+psp_setvoltage(io_psp603,1)
+psp_setvlimit(io_psp603,10.123456)
+psp_setilimit(io_psp603,2)
+psp_setvlimitmax(io_psp603)
+psp_setplimit(io_psp603,100)
+psp_setvoltage(io_psp603,11.12345)
+psp_setvlimit(io_psp603,22)
+psp_setilimit(io_psp603,1)
+
+psp_setvoltage(io_psp603,0)
+psp_setvlimitmax(io_psp603)
+psp_setilimitmax(io_psp603)
+psp_setplimitmax(io_psp603)
+psp_savepreset(io_psp603)
+
+# restore state
+psp_setvoltage(io_psp603,status.voltage)
+psp_setvlimit(io_psp603,status.vlimit)
+psp_setilimit(io_psp603,status.ilimit)
+psp_setplimit(io_psp603,status.plimit)
+
 close(io_psp603)

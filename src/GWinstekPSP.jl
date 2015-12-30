@@ -9,18 +9,19 @@ note:
 3)  Configure COM port for 2400,8,1,N flow control none.
 =#
 
+# not including margining commands
 
 module GWinstekPSP
 
 # functions that read values
-include("psp_status.jl")
-include("psp_readvoltage.jl")
-include("psp_readcurrent.jl")
-include("psp_readpower.jl")
-include("psp_readvlimit.jl")
-include("psp_readilimit.jl")
-include("psp_readplimit.jl")
-include("psp_readflags.jl")
+include("psp_status.jl") # L
+include("psp_readvoltage.jl") # V
+include("psp_readcurrent.jl") # A
+include("psp_readpower.jl") # W
+include("psp_readvlimit.jl") # U
+include("psp_readilimit.jl") # I
+include("psp_readplimit.jl") # P
+include("psp_readflags.jl") # F
 
 # functions that set values
 include("psp_incrementvoltage.jl")  # SV+
@@ -47,7 +48,9 @@ include("psp_setrelayoff.jl") # KOD
 
 include("psp_savepreset.jl") # EEP
 
-
-
+include("psp_setvoltage.jl") # SV
+include("psp_setvlimit.jl") # SU
+include("psp_setilimit.jl") # SI
+include("psp_setplimit.jl") # SP
 
 end # module
