@@ -1,4 +1,5 @@
 # Read status of the power supply
+export psp_status!, psp_status
 
 const READ_STATUS = [0x4c, 0x0d]
 
@@ -12,7 +13,7 @@ type Status
   isrelayon  :: Bool 
   isoverheat :: Bool   
   isknobfine :: Bool   
-  isknoblock :: Bool   
+  isknobunlock :: Bool   
   isremote   :: Bool 
   islock     :: Bool
 end
@@ -27,17 +28,17 @@ function Base.show(io::IO, s::Status)
   println("vlimit  = ",s.vlimit)
   println("ilimit  = ",s.ilimit)
   println("plimit  = ",s.plimit)
-  println("isrelayon  = ",s.isrelayon)
-  println("inoverheat = ",s.inoverheat)
-  println("isknobfine = ",s.isknobfine)
-  println("isknoblock = ",s.isknoblock)
-  println("isremote   = ",s.isremote)
-  println("islock     = ",s.islock)
+  println("isrelayon    = ",s.isrelayon)
+  println("isoverheat   = ",s.isoverheat)
+  println("isknobfine   = ",s.isknobfine)
+  println("isknobunlock = ",s.isknobunlock)
+  println("isremote     = ",s.isremote)
+  println("islock       = ",s.islock)
 end
 
-function psp_status!(io_psp603::IO, s::Status)
-    write(io_psp603, READ_STATUS)  # obtain all status from power supply
-    status = bytestring(read(io_psp603,UInt8, 40))
+function psp_status!(io_psp::IO, s::Status)
+    write(io_psp, READ_STATUS)  # obtain all status from power supply
+    status = bytestring(read(io_psp,UInt8, 40))
     if  status[1] != 'V' ||
         status[4] != '.' ||
         status[7] != 'A' ||
@@ -50,7 +51,7 @@ function psp_status!(io_psp603::IO, s::Status)
         status[27] != 'P' ||
         status[31] != 'F' ||
         status[38:40] != "\r\r\n"
-        error("PSP-603 Invalid Response: ",status)
+          error("PSP Invalid Response: ",status)
     end
     s.voltage = parse(Float64,status[2:6])
     s.current = parse(Float64,status[8:12])
@@ -67,8 +68,8 @@ function psp_status!(io_psp603::IO, s::Status)
     return s
 end
 
-function psp_status(io_psp603::IO)
+function psp_status(io_psp::IO)
   s = Status()
-  psp_status!(io_psp603,s)
+  psp_status!(io_psp,s)
 end
 
