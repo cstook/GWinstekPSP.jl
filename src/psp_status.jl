@@ -1,4 +1,7 @@
 # Read status of the power supply
+
+# command not working reliably ???
+
 export psp_status!, psp_status
 
 const READ_STATUS = [0x4c, 0x0d]
