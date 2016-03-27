@@ -4,6 +4,7 @@ export psp_decrementvoltage
 
 const DECREMENT_VOLTAGE = [0x53, 0x56, 0x2D, 0x0D]
 
+"decrements the voltage"
 function psp_decrementvoltage(io_psp::IO)
   write(io_psp, DECREMENT_VOLTAGE)
   return nothing

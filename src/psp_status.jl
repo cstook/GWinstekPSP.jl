@@ -76,3 +76,5 @@ function psp_status(io_psp::IO)
   psp_status!(io_psp,s)
 end
 
+"Read status of the power supply"
+psp_status, psp_status!
