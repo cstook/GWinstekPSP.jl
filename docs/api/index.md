@@ -45,7 +45,7 @@
 
 [psp_readvoltage(io_psp::IO)](GWinstekPSP.md#method__psp_readvoltage.1)  read output voltage
 
-[psp_savepreset(io_psp::IO)](GWinstekPSP.md#method__psp_savepreset.1)  save current configuration to EEPROM
+[psp_savepreset(io_psp::IO)](GWinstekPSP.md#method__psp_savepreset.1)  save current configuration to EEPROM.
 
 [psp_setilimit(io_psp::IO,  ilim::Real)](GWinstekPSP.md#method__psp_setilimit.1)  set the current limit
 

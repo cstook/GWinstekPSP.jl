@@ -1,4 +1,4 @@
-# save current configuration to EEPROM
+# save current configuration to EEPROM.
 # power supply will power up in this state.
 # EEP
 export psp_savepreset
