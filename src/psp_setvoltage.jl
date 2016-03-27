@@ -2,7 +2,7 @@
 # SV
 export psp_setvoltage
 
-"set voltage"
+"Set output voltage."
 function psp_setvoltage(io_psp::IO,voltage::Real)
   @assert voltage<100 "voltage must be < 100V"
   vstring = @sprintf("%02.2f",voltage)

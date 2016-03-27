@@ -6,18 +6,31 @@ export psp_status!, psp_status
 
 const READ_STATUS = [0x4c, 0x0d]
 
+"Power supply status"
 type Status
+  "Output voltage"
   voltage :: Float64
-  current :: Float64 
+  "Output current"
+  current :: Float64
+  "Output power"
   power   :: Float64
-  vlimit  :: Float64 
-  ilimit  :: Float64 
+  "Voltage limit"
+  vlimit  :: Float64
+  "Current limit"
+  ilimit  :: Float64
+  "Power limit"
   plimit  :: Float64 
-  isrelayon  :: Bool 
-  isoverheat :: Bool   
-  isknobfine :: Bool   
-  isknobunlock :: Bool   
+  "True if output relay is on"
+  isrelayon  :: Bool
+  "True if power supply temperature is too high"
+  isoverheat :: Bool 
+  "True if knob is in fine mode"  
+  isknobfine :: Bool
+  "True if knob is unlocked"
+  isknobunlock :: Bool 
+  "True if power supply is in remote control mode"
   isremote   :: Bool 
+  "True is front panel controls are locked"
   islock     :: Bool
 end
 

@@ -3,7 +3,7 @@ export psp_readilimit
 
 const READ_ILIMIT = [0x49, 0x0d]
 
-"read the current limit"
+"Read the output current limit."
 function psp_readilimit(io_psp::IO)
   write(io_psp, READ_ILIMIT)
   ilimitstring = bytestring(read(io_psp,UInt8, 8))

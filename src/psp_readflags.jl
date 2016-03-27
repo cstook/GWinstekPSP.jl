@@ -3,7 +3,7 @@ export psp_readflags
 
 const READ_FLAGS = [0x46, 0x0d]
 
-"read status flags"
+"Read the flags."
 function psp_readflags(io_psp::IO)
   write(io_psp, READ_FLAGS)
   flagsstring = bytestring(read(io_psp,UInt8, 10))
