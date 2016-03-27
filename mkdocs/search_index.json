@@ -22,12 +22,12 @@
         },
         {
             "location": "/usage/",
-            "text": "Usage",
+            "text": "Usage\n\n\nGWinstekPSP needs to communicate with the power supply via a serial port.  If the power supply is connected with a \nFTDI\n USB to serial converter, \nFTD2XX.jl\n my be used.\n\n\nNote: The serial port on some supplies is non standard.  +12V must be externaly supplied.  See the documentation for your supply.\n\n\nLoad the modules we will need.\n\n\nusing FTD2XX\nusing GWinstekPSP\n\n\n\n\nOpen the serial port.\n\n\nuartconfig = UARTConfiguration(2400,8,1,\"n\",\n                               readtimeout = 1000,   # in milliseconds\n                               writetimeout = 1000)  # in milliseconds\n# Replace \"PSP-603\" with the description for your converter\nio_psp603 = open(FT_Description(\"PSP-603\"),uartconfig)\n\n\n\n\nGet power supply status.\n\n\npurge(io_psp603)  # purge buffer, just to be safe\nwait(Timer(0.1))\nstatus = psp_status(io_psp603)\n\n\n\n\nRamp voltage from 0V to 60V in 1V steps, 1 per second.\n\n\nfor v in 0:60\n    psp_setvoltage(io_psp603,v)\n    wait(Timer(1))\nend",
             "title": "Usage"
         },
         {
             "location": "/usage/#usage",
-            "text": "",
+            "text": "GWinstekPSP needs to communicate with the power supply via a serial port.  If the power supply is connected with a  FTDI  USB to serial converter,  FTD2XX.jl  my be used.  Note: The serial port on some supplies is non standard.  +12V must be externaly supplied.  See the documentation for your supply.  Load the modules we will need.  using FTD2XX\nusing GWinstekPSP  Open the serial port.  uartconfig = UARTConfiguration(2400,8,1,\"n\",\n                               readtimeout = 1000,   # in milliseconds\n                               writetimeout = 1000)  # in milliseconds\n# Replace \"PSP-603\" with the description for your converter\nio_psp603 = open(FT_Description(\"PSP-603\"),uartconfig)  Get power supply status.  purge(io_psp603)  # purge buffer, just to be safe\nwait(Timer(0.1))\nstatus = psp_status(io_psp603)  Ramp voltage from 0V to 60V in 1V steps, 1 per second.  for v in 0:60\n    psp_setvoltage(io_psp603,v)\n    wait(Timer(1))\nend",
             "title": "Usage"
         },
         {

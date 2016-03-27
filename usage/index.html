@@ -133,6 +133,33 @@
             <div class="section">
               
                 <h1 id="usage">Usage</h1>
+<p>GWinstekPSP needs to communicate with the power supply via a serial port.  If the power supply is connected with a <a href="http://www.ftdichip.com">FTDI</a> USB to serial converter, <a href="https://github.com/cstook/FTD2XX.jl">FTD2XX.jl</a> my be used.</p>
+<p>Note: The serial port on some supplies is non standard.  +12V must be externaly supplied.  See the documentation for your supply.</p>
+<p>Load the modules we will need.</p>
+<pre><code class="julia">using FTD2XX
+using GWinstekPSP
+</code></pre>
+
+<p>Open the serial port.</p>
+<pre><code class="julia">uartconfig = UARTConfiguration(2400,8,1,&quot;n&quot;,
+                               readtimeout = 1000,   # in milliseconds
+                               writetimeout = 1000)  # in milliseconds
+# Replace &quot;PSP-603&quot; with the description for your converter
+io_psp603 = open(FT_Description(&quot;PSP-603&quot;),uartconfig)
+</code></pre>
+
+<p>Get power supply status.</p>
+<pre><code class="julia">purge(io_psp603)  # purge buffer, just to be safe
+wait(Timer(0.1))
+status = psp_status(io_psp603)
+</code></pre>
+
+<p>Ramp voltage from 0V to 60V in 1V steps, 1 per second.</p>
+<pre><code class="julia">for v in 0:60
+    psp_setvoltage(io_psp603,v)
+    wait(Timer(1))
+end
+</code></pre>
               
             </div>
           </div>
