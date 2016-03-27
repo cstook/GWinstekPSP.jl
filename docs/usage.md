@@ -1,6 +1,6 @@
 # Usage
 
-GWinstekPSP needs to communicate with the power supply via a serial port.  If the power supply is connected with a [FTDI](http://www.ftdichip.com) USB to serial converter, [FTD2XX.jl](https://github.com/cstook/FTD2XX.jl) my be used.
+GWinstekPSP needs to communicate with the power supply via a serial port.  If the power supply is connected with a [FTDI](http://www.ftdichip.com) USB to serial converter, [FTD2XX.jl](https://github.com/cstook/FTD2XX.jl) may be used.
 
 Note: The serial port on some supplies is non standard.  +12V must be externaly supplied.  See the documentation for your supply.
 
