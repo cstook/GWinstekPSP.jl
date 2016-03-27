@@ -11,6 +11,22 @@
 
     
     <url>
+     <loc>None/install/</loc>
+     <lastmod>2016-03-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/usage/</loc>
+     <lastmod>2016-03-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
      <loc>None/api/GWinstekPSP/</loc>
      <lastmod>2016-03-27</lastmod>
      <changefreq>daily</changefreq>
