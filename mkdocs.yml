@@ -1,0 +1,10 @@
+site_name:           GWinstekPSP.jl
+repo_url:            https://github.com/cstook/GWinstekPSP.jl.git
+site_description:    Communicate with GW instek PSP series power supplies
+site_author:         Chris Stook
+theme:               readthedocs
+markdown_extensions: [tables, fenced_code]
+pages:
+- Introduction: index.md
+- API: api/GWinstekPSP.md
+- API Index: api/index.md
