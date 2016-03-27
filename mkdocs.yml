@@ -6,5 +6,7 @@ theme:               readthedocs
 markdown_extensions: [tables, fenced_code]
 pages:
 - Introduction: index.md
+- Installation: install.md
+- Usage: usage.md
 - API: api/GWinstekPSP.md
 - API Index: api/index.md

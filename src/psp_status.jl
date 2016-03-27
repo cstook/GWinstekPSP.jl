@@ -30,7 +30,7 @@ type Status
   isknobunlock :: Bool 
   "True if power supply is in remote control mode"
   isremote   :: Bool 
-  "True is front panel controls are locked"
+  "True if front panel controls are locked"
   islock     :: Bool
 end
 

@@ -9,7 +9,7 @@
 Read status of the power supply
 
 *source:*
-[GWinstekPSP\src\psp_status.jl:93](https://github.com/cstook/GWinstekPSP.jl/tree/b39b3fd59f6c05fa8ddf49ddeec0144161d800d8/src\psp_status.jl#L93)
+[GWinstekPSP\src\psp_status.jl:93](https://github.com/cstook/GWinstekPSP.jl/tree/fbfdeb2c0b43fd4176f8d00402f33f9fbc33e7b9/src\psp_status.jl#L93)
 
 ---
 
@@ -18,7 +18,7 @@ Read status of the power supply
 Read status of the power supply
 
 *source:*
-[GWinstekPSP\src\psp_status.jl:93](https://github.com/cstook/GWinstekPSP.jl/tree/b39b3fd59f6c05fa8ddf49ddeec0144161d800d8/src\psp_status.jl#L93)
+[GWinstekPSP\src\psp_status.jl:93](https://github.com/cstook/GWinstekPSP.jl/tree/fbfdeb2c0b43fd4176f8d00402f33f9fbc33e7b9/src\psp_status.jl#L93)
 
 ---
 
@@ -27,7 +27,7 @@ Read status of the power supply
 Subtract one unit to the current limit.
 
 *source:*
-[GWinstekPSP\src\psp_decrementilimit.jl:7](https://github.com/cstook/GWinstekPSP.jl/tree/b39b3fd59f6c05fa8ddf49ddeec0144161d800d8/src\psp_decrementilimit.jl#L7)
+[GWinstekPSP\src\psp_decrementilimit.jl:7](https://github.com/cstook/GWinstekPSP.jl/tree/fbfdeb2c0b43fd4176f8d00402f33f9fbc33e7b9/src\psp_decrementilimit.jl#L7)
 
 ---
 
@@ -36,7 +36,7 @@ Subtract one unit to the current limit.
 Subtract one unit to the power limit.
 
 *source:*
-[GWinstekPSP\src\psp_decrementplimit.jl:8](https://github.com/cstook/GWinstekPSP.jl/tree/b39b3fd59f6c05fa8ddf49ddeec0144161d800d8/src\psp_decrementplimit.jl#L8)
+[GWinstekPSP\src\psp_decrementplimit.jl:8](https://github.com/cstook/GWinstekPSP.jl/tree/fbfdeb2c0b43fd4176f8d00402f33f9fbc33e7b9/src\psp_decrementplimit.jl#L8)
 
 ---
 
@@ -45,7 +45,7 @@ Subtract one unit to the power limit.
 Add one unit to the voltage limit.
 
 *source:*
-[GWinstekPSP\src\psp_decrementvlimit.jl:8](https://github.com/cstook/GWinstekPSP.jl/tree/b39b3fd59f6c05fa8ddf49ddeec0144161d800d8/src\psp_decrementvlimit.jl#L8)
+[GWinstekPSP\src\psp_decrementvlimit.jl:8](https://github.com/cstook/GWinstekPSP.jl/tree/fbfdeb2c0b43fd4176f8d00402f33f9fbc33e7b9/src\psp_decrementvlimit.jl#L8)
 
 ---
 
@@ -54,7 +54,7 @@ Add one unit to the voltage limit.
 Subtract one unit to the voltage setting.
 
 *source:*
-[GWinstekPSP\src\psp_decrementvoltage.jl:8](https://github.com/cstook/GWinstekPSP.jl/tree/b39b3fd59f6c05fa8ddf49ddeec0144161d800d8/src\psp_decrementvoltage.jl#L8)
+[GWinstekPSP\src\psp_decrementvoltage.jl:8](https://github.com/cstook/GWinstekPSP.jl/tree/fbfdeb2c0b43fd4176f8d00402f33f9fbc33e7b9/src\psp_decrementvoltage.jl#L8)
 
 ---
 
@@ -63,7 +63,7 @@ Subtract one unit to the voltage setting.
 Add one unit to the current limit.
 
 *source:*
-[GWinstekPSP\src\psp_incrementilimit.jl:8](https://github.com/cstook/GWinstekPSP.jl/tree/b39b3fd59f6c05fa8ddf49ddeec0144161d800d8/src\psp_incrementilimit.jl#L8)
+[GWinstekPSP\src\psp_incrementilimit.jl:8](https://github.com/cstook/GWinstekPSP.jl/tree/fbfdeb2c0b43fd4176f8d00402f33f9fbc33e7b9/src\psp_incrementilimit.jl#L8)
 
 ---
 
@@ -72,7 +72,7 @@ Add one unit to the current limit.
 Add one unit to the power limit.
 
 *source:*
-[GWinstekPSP\src\psp_incrementplimit.jl:8](https://github.com/cstook/GWinstekPSP.jl/tree/b39b3fd59f6c05fa8ddf49ddeec0144161d800d8/src\psp_incrementplimit.jl#L8)
+[GWinstekPSP\src\psp_incrementplimit.jl:8](https://github.com/cstook/GWinstekPSP.jl/tree/fbfdeb2c0b43fd4176f8d00402f33f9fbc33e7b9/src\psp_incrementplimit.jl#L8)
 
 ---
 
@@ -81,7 +81,7 @@ Add one unit to the power limit.
 Add one unit to the voltage limit.
 
 *source:*
-[GWinstekPSP\src\psp_incrementvlimit.jl:8](https://github.com/cstook/GWinstekPSP.jl/tree/b39b3fd59f6c05fa8ddf49ddeec0144161d800d8/src\psp_incrementvlimit.jl#L8)
+[GWinstekPSP\src\psp_incrementvlimit.jl:8](https://github.com/cstook/GWinstekPSP.jl/tree/fbfdeb2c0b43fd4176f8d00402f33f9fbc33e7b9/src\psp_incrementvlimit.jl#L8)
 
 ---
 
@@ -90,7 +90,7 @@ Add one unit to the voltage limit.
 Add one unit to the voltage setting.
 
 *source:*
-[GWinstekPSP\src\psp_incrementvoltage.jl:8](https://github.com/cstook/GWinstekPSP.jl/tree/b39b3fd59f6c05fa8ddf49ddeec0144161d800d8/src\psp_incrementvoltage.jl#L8)
+[GWinstekPSP\src\psp_incrementvoltage.jl:8](https://github.com/cstook/GWinstekPSP.jl/tree/fbfdeb2c0b43fd4176f8d00402f33f9fbc33e7b9/src\psp_incrementvoltage.jl#L8)
 
 ---
 
@@ -99,7 +99,7 @@ Add one unit to the voltage setting.
 Read the output current.
 
 *source:*
-[GWinstekPSP\src\psp_readcurrent.jl:7](https://github.com/cstook/GWinstekPSP.jl/tree/b39b3fd59f6c05fa8ddf49ddeec0144161d800d8/src\psp_readcurrent.jl#L7)
+[GWinstekPSP\src\psp_readcurrent.jl:7](https://github.com/cstook/GWinstekPSP.jl/tree/fbfdeb2c0b43fd4176f8d00402f33f9fbc33e7b9/src\psp_readcurrent.jl#L7)
 
 ---
 
@@ -108,7 +108,7 @@ Read the output current.
 Read the flags.
 
 *source:*
-[GWinstekPSP\src\psp_readflags.jl:7](https://github.com/cstook/GWinstekPSP.jl/tree/b39b3fd59f6c05fa8ddf49ddeec0144161d800d8/src\psp_readflags.jl#L7)
+[GWinstekPSP\src\psp_readflags.jl:7](https://github.com/cstook/GWinstekPSP.jl/tree/fbfdeb2c0b43fd4176f8d00402f33f9fbc33e7b9/src\psp_readflags.jl#L7)
 
 ---
 
@@ -117,7 +117,7 @@ Read the flags.
 Read the output current limit.
 
 *source:*
-[GWinstekPSP\src\psp_readilimit.jl:7](https://github.com/cstook/GWinstekPSP.jl/tree/b39b3fd59f6c05fa8ddf49ddeec0144161d800d8/src\psp_readilimit.jl#L7)
+[GWinstekPSP\src\psp_readilimit.jl:7](https://github.com/cstook/GWinstekPSP.jl/tree/fbfdeb2c0b43fd4176f8d00402f33f9fbc33e7b9/src\psp_readilimit.jl#L7)
 
 ---
 
@@ -126,7 +126,7 @@ Read the output current limit.
 Read the power limit.
 
 *source:*
-[GWinstekPSP\src\psp_readplimit.jl:7](https://github.com/cstook/GWinstekPSP.jl/tree/b39b3fd59f6c05fa8ddf49ddeec0144161d800d8/src\psp_readplimit.jl#L7)
+[GWinstekPSP\src\psp_readplimit.jl:7](https://github.com/cstook/GWinstekPSP.jl/tree/fbfdeb2c0b43fd4176f8d00402f33f9fbc33e7b9/src\psp_readplimit.jl#L7)
 
 ---
 
@@ -135,7 +135,7 @@ Read the power limit.
 Read the output power.
 
 *source:*
-[GWinstekPSP\src\psp_readpower.jl:7](https://github.com/cstook/GWinstekPSP.jl/tree/b39b3fd59f6c05fa8ddf49ddeec0144161d800d8/src\psp_readpower.jl#L7)
+[GWinstekPSP\src\psp_readpower.jl:7](https://github.com/cstook/GWinstekPSP.jl/tree/fbfdeb2c0b43fd4176f8d00402f33f9fbc33e7b9/src\psp_readpower.jl#L7)
 
 ---
 
@@ -144,7 +144,7 @@ Read the output power.
 Read the voltage limit.
 
 *source:*
-[GWinstekPSP\src\psp_readvlimit.jl:7](https://github.com/cstook/GWinstekPSP.jl/tree/b39b3fd59f6c05fa8ddf49ddeec0144161d800d8/src\psp_readvlimit.jl#L7)
+[GWinstekPSP\src\psp_readvlimit.jl:7](https://github.com/cstook/GWinstekPSP.jl/tree/fbfdeb2c0b43fd4176f8d00402f33f9fbc33e7b9/src\psp_readvlimit.jl#L7)
 
 ---
 
@@ -153,7 +153,7 @@ Read the voltage limit.
 Read output voltage.
 
 *source:*
-[GWinstekPSP\src\psp_readvoltage.jl:7](https://github.com/cstook/GWinstekPSP.jl/tree/b39b3fd59f6c05fa8ddf49ddeec0144161d800d8/src\psp_readvoltage.jl#L7)
+[GWinstekPSP\src\psp_readvoltage.jl:7](https://github.com/cstook/GWinstekPSP.jl/tree/fbfdeb2c0b43fd4176f8d00402f33f9fbc33e7b9/src\psp_readvoltage.jl#L7)
 
 ---
 
@@ -163,7 +163,7 @@ Save current configuration to EEPROM.  Power supply will power up in this state.
 
 
 *source:*
-[GWinstekPSP\src\psp_savepreset.jl:11](https://github.com/cstook/GWinstekPSP.jl/tree/b39b3fd59f6c05fa8ddf49ddeec0144161d800d8/src\psp_savepreset.jl#L11)
+[GWinstekPSP\src\psp_savepreset.jl:11](https://github.com/cstook/GWinstekPSP.jl/tree/fbfdeb2c0b43fd4176f8d00402f33f9fbc33e7b9/src\psp_savepreset.jl#L11)
 
 ---
 
@@ -172,7 +172,7 @@ Save current configuration to EEPROM.  Power supply will power up in this state.
 Set the current limit.
 
 *source:*
-[GWinstekPSP\src\psp_setilimit.jl:6](https://github.com/cstook/GWinstekPSP.jl/tree/b39b3fd59f6c05fa8ddf49ddeec0144161d800d8/src\psp_setilimit.jl#L6)
+[GWinstekPSP\src\psp_setilimit.jl:6](https://github.com/cstook/GWinstekPSP.jl/tree/fbfdeb2c0b43fd4176f8d00402f33f9fbc33e7b9/src\psp_setilimit.jl#L6)
 
 ---
 
@@ -181,7 +181,7 @@ Set the current limit.
 Set current limit to maximum value.
 
 *source:*
-[GWinstekPSP\src\psp_setilimitmax.jl:8](https://github.com/cstook/GWinstekPSP.jl/tree/b39b3fd59f6c05fa8ddf49ddeec0144161d800d8/src\psp_setilimitmax.jl#L8)
+[GWinstekPSP\src\psp_setilimitmax.jl:8](https://github.com/cstook/GWinstekPSP.jl/tree/fbfdeb2c0b43fd4176f8d00402f33f9fbc33e7b9/src\psp_setilimitmax.jl#L8)
 
 ---
 
@@ -190,7 +190,7 @@ Set current limit to maximum value.
 Set knob to fine.
 
 *source:*
-[GWinstekPSP\src\psp_setknobfine.jl:8](https://github.com/cstook/GWinstekPSP.jl/tree/b39b3fd59f6c05fa8ddf49ddeec0144161d800d8/src\psp_setknobfine.jl#L8)
+[GWinstekPSP\src\psp_setknobfine.jl:8](https://github.com/cstook/GWinstekPSP.jl/tree/fbfdeb2c0b43fd4176f8d00402f33f9fbc33e7b9/src\psp_setknobfine.jl#L8)
 
 ---
 
@@ -199,7 +199,7 @@ Set knob to fine.
 Set knob to normal.
 
 *source:*
-[GWinstekPSP\src\psp_setknobnormal.jl:8](https://github.com/cstook/GWinstekPSP.jl/tree/b39b3fd59f6c05fa8ddf49ddeec0144161d800d8/src\psp_setknobnormal.jl#L8)
+[GWinstekPSP\src\psp_setknobnormal.jl:8](https://github.com/cstook/GWinstekPSP.jl/tree/fbfdeb2c0b43fd4176f8d00402f33f9fbc33e7b9/src\psp_setknobnormal.jl#L8)
 
 ---
 
@@ -208,7 +208,7 @@ Set knob to normal.
 Set the power limit.
 
 *source:*
-[GWinstekPSP\src\psp_setplimit.jl:6](https://github.com/cstook/GWinstekPSP.jl/tree/b39b3fd59f6c05fa8ddf49ddeec0144161d800d8/src\psp_setplimit.jl#L6)
+[GWinstekPSP\src\psp_setplimit.jl:6](https://github.com/cstook/GWinstekPSP.jl/tree/fbfdeb2c0b43fd4176f8d00402f33f9fbc33e7b9/src\psp_setplimit.jl#L6)
 
 ---
 
@@ -217,7 +217,7 @@ Set the power limit.
 Set power limit to maximum value.
 
 *source:*
-[GWinstekPSP\src\psp_setplimitmax.jl:8](https://github.com/cstook/GWinstekPSP.jl/tree/b39b3fd59f6c05fa8ddf49ddeec0144161d800d8/src\psp_setplimitmax.jl#L8)
+[GWinstekPSP\src\psp_setplimitmax.jl:8](https://github.com/cstook/GWinstekPSP.jl/tree/fbfdeb2c0b43fd4176f8d00402f33f9fbc33e7b9/src\psp_setplimitmax.jl#L8)
 
 ---
 
@@ -226,7 +226,7 @@ Set power limit to maximum value.
 Set output relay off.
 
 *source:*
-[GWinstekPSP\src\psp_setrelayoff.jl:8](https://github.com/cstook/GWinstekPSP.jl/tree/b39b3fd59f6c05fa8ddf49ddeec0144161d800d8/src\psp_setrelayoff.jl#L8)
+[GWinstekPSP\src\psp_setrelayoff.jl:8](https://github.com/cstook/GWinstekPSP.jl/tree/fbfdeb2c0b43fd4176f8d00402f33f9fbc33e7b9/src\psp_setrelayoff.jl#L8)
 
 ---
 
@@ -235,7 +235,7 @@ Set output relay off.
 Set output relay on.
 
 *source:*
-[GWinstekPSP\src\psp_setrelayon.jl:8](https://github.com/cstook/GWinstekPSP.jl/tree/b39b3fd59f6c05fa8ddf49ddeec0144161d800d8/src\psp_setrelayon.jl#L8)
+[GWinstekPSP\src\psp_setrelayon.jl:8](https://github.com/cstook/GWinstekPSP.jl/tree/fbfdeb2c0b43fd4176f8d00402f33f9fbc33e7b9/src\psp_setrelayon.jl#L8)
 
 ---
 
@@ -244,7 +244,7 @@ Set output relay on.
 Set the voltage limit.
 
 *source:*
-[GWinstekPSP\src\psp_setvlimit.jl:6](https://github.com/cstook/GWinstekPSP.jl/tree/b39b3fd59f6c05fa8ddf49ddeec0144161d800d8/src\psp_setvlimit.jl#L6)
+[GWinstekPSP\src\psp_setvlimit.jl:6](https://github.com/cstook/GWinstekPSP.jl/tree/fbfdeb2c0b43fd4176f8d00402f33f9fbc33e7b9/src\psp_setvlimit.jl#L6)
 
 ---
 
@@ -253,7 +253,7 @@ Set the voltage limit.
 Set voltage limit to maximum value.
 
 *source:*
-[GWinstekPSP\src\psp_setvlimitmax.jl:8](https://github.com/cstook/GWinstekPSP.jl/tree/b39b3fd59f6c05fa8ddf49ddeec0144161d800d8/src\psp_setvlimitmax.jl#L8)
+[GWinstekPSP\src\psp_setvlimitmax.jl:8](https://github.com/cstook/GWinstekPSP.jl/tree/fbfdeb2c0b43fd4176f8d00402f33f9fbc33e7b9/src\psp_setvlimitmax.jl#L8)
 
 ---
 
@@ -262,7 +262,7 @@ Set voltage limit to maximum value.
 Set output voltage.
 
 *source:*
-[GWinstekPSP\src\psp_setvoltage.jl:6](https://github.com/cstook/GWinstekPSP.jl/tree/b39b3fd59f6c05fa8ddf49ddeec0144161d800d8/src\psp_setvoltage.jl#L6)
+[GWinstekPSP\src\psp_setvoltage.jl:6](https://github.com/cstook/GWinstekPSP.jl/tree/fbfdeb2c0b43fd4176f8d00402f33f9fbc33e7b9/src\psp_setvoltage.jl#L6)
 
 ---
 
@@ -271,7 +271,7 @@ Set output voltage.
 Toggle output relay.
 
 *source:*
-[GWinstekPSP\src\psp_togglerelay.jl:8](https://github.com/cstook/GWinstekPSP.jl/tree/b39b3fd59f6c05fa8ddf49ddeec0144161d800d8/src\psp_togglerelay.jl#L8)
+[GWinstekPSP\src\psp_togglerelay.jl:8](https://github.com/cstook/GWinstekPSP.jl/tree/fbfdeb2c0b43fd4176f8d00402f33f9fbc33e7b9/src\psp_togglerelay.jl#L8)
 
 ## Internal
 
@@ -282,5 +282,5 @@ Toggle output relay.
 Power supply status
 
 *source:*
-[GWinstekPSP\src\psp_status.jl:10](https://github.com/cstook/GWinstekPSP.jl/tree/b39b3fd59f6c05fa8ddf49ddeec0144161d800d8/src\psp_status.jl#L10)
+[GWinstekPSP\src\psp_status.jl:10](https://github.com/cstook/GWinstekPSP.jl/tree/fbfdeb2c0b43fd4176f8d00402f33f9fbc33e7b9/src\psp_status.jl#L10)
 
