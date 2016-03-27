@@ -1,0 +1,29 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Control GW instek power supplies.",
+            "title": "Introduction"
+        },
+        {
+            "location": "/api/GWinstekPSP/",
+            "text": "GWinstekPSP",
+            "title": "API"
+        },
+        {
+            "location": "/api/GWinstekPSP/#gwinstekpsp",
+            "text": "",
+            "title": "GWinstekPSP"
+        },
+        {
+            "location": "/api/",
+            "text": "API-INDEX",
+            "title": "API Index"
+        },
+        {
+            "location": "/api/#api-index",
+            "text": "",
+            "title": "API-INDEX"
+        }
+    ]
+}
