@@ -2,12 +2,17 @@
     "docs": [
         {
             "location": "/",
-            "text": "Control GW instek power supplies.",
+            "text": "GWinstekPSP.jl\n\n\nGWinstekPSP\n simplifies control of \nGW instek\n \nPSP-Series\n power supplies.",
             "title": "Introduction"
         },
         {
+            "location": "/#gwinstekpspjl",
+            "text": "GWinstekPSP  simplifies control of  GW instek   PSP-Series  power supplies.",
+            "title": "GWinstekPSP.jl"
+        },
+        {
             "location": "/api/GWinstekPSP/",
-            "text": "GWinstekPSP",
+            "text": "GWinstekPSP\n\n\nExported\n\n\n\n\n\n\nGWinstekPSP.psp_status \n\u00b6\n\n\nRead status of the power supply\n\n\nsource:\n\n\nGWinstekPSP\\src\\psp_status.jl:93\n\n\n\n\n\n\nGWinstekPSP.psp_status! \n\u00b6\n\n\nRead status of the power supply\n\n\nsource:\n\n\nGWinstekPSP\\src\\psp_status.jl:93\n\n\n\n\n\n\npsp_decrementilimit(io_psp::IO) \n\u00b6\n\n\nSubtract one unit to the current limit.\n\n\nsource:\n\n\nGWinstekPSP\\src\\psp_decrementilimit.jl:7\n\n\n\n\n\n\npsp_decrementplimit(io_psp::IO) \n\u00b6\n\n\nSubtract one unit to the power limit.\n\n\nsource:\n\n\nGWinstekPSP\\src\\psp_decrementplimit.jl:8\n\n\n\n\n\n\npsp_decrementvlimit(io_psp::IO) \n\u00b6\n\n\nAdd one unit to the voltage limit.\n\n\nsource:\n\n\nGWinstekPSP\\src\\psp_decrementvlimit.jl:8\n\n\n\n\n\n\npsp_decrementvoltage(io_psp::IO) \n\u00b6\n\n\nSubtract one unit to the voltage setting.\n\n\nsource:\n\n\nGWinstekPSP\\src\\psp_decrementvoltage.jl:8\n\n\n\n\n\n\npsp_incrementilimit(io_psp::IO) \n\u00b6\n\n\nAdd one unit to the current limit.\n\n\nsource:\n\n\nGWinstekPSP\\src\\psp_incrementilimit.jl:8\n\n\n\n\n\n\npsp_incrementplimit(io_psp::IO) \n\u00b6\n\n\nAdd one unit to the power limit.\n\n\nsource:\n\n\nGWinstekPSP\\src\\psp_incrementplimit.jl:8\n\n\n\n\n\n\npsp_incrementvlimit(io_psp::IO) \n\u00b6\n\n\nAdd one unit to the voltage limit.\n\n\nsource:\n\n\nGWinstekPSP\\src\\psp_incrementvlimit.jl:8\n\n\n\n\n\n\npsp_incrementvoltage(io_psp::IO) \n\u00b6\n\n\nAdd one unit to the voltage setting.\n\n\nsource:\n\n\nGWinstekPSP\\src\\psp_incrementvoltage.jl:8\n\n\n\n\n\n\npsp_readcurrent(io_psp::IO) \n\u00b6\n\n\nRead the output current.\n\n\nsource:\n\n\nGWinstekPSP\\src\\psp_readcurrent.jl:7\n\n\n\n\n\n\npsp_readflags(io_psp::IO) \n\u00b6\n\n\nRead the flags.\n\n\nsource:\n\n\nGWinstekPSP\\src\\psp_readflags.jl:7\n\n\n\n\n\n\npsp_readilimit(io_psp::IO) \n\u00b6\n\n\nRead the output current limit.\n\n\nsource:\n\n\nGWinstekPSP\\src\\psp_readilimit.jl:7\n\n\n\n\n\n\npsp_readplimit(io_psp::IO) \n\u00b6\n\n\nRead the power limit.\n\n\nsource:\n\n\nGWinstekPSP\\src\\psp_readplimit.jl:7\n\n\n\n\n\n\npsp_readpower(io_psp::IO) \n\u00b6\n\n\nRead the output power.\n\n\nsource:\n\n\nGWinstekPSP\\src\\psp_readpower.jl:7\n\n\n\n\n\n\npsp_readvlimit(io_psp::IO) \n\u00b6\n\n\nRead the voltage limit.\n\n\nsource:\n\n\nGWinstekPSP\\src\\psp_readvlimit.jl:7\n\n\n\n\n\n\npsp_readvoltage(io_psp::IO) \n\u00b6\n\n\nRead output voltage.\n\n\nsource:\n\n\nGWinstekPSP\\src\\psp_readvoltage.jl:7\n\n\n\n\n\n\npsp_savepreset(io_psp::IO) \n\u00b6\n\n\nSave current configuration to EEPROM.  Power supply will power up in this state.\n\n\nsource:\n\n\nGWinstekPSP\\src\\psp_savepreset.jl:11\n\n\n\n\n\n\npsp_setilimit(io_psp::IO,  ilim::Real) \n\u00b6\n\n\nSet the current limit.\n\n\nsource:\n\n\nGWinstekPSP\\src\\psp_setilimit.jl:6\n\n\n\n\n\n\npsp_setilimitmax(io_psp::IO) \n\u00b6\n\n\nSet current limit to maximum value.\n\n\nsource:\n\n\nGWinstekPSP\\src\\psp_setilimitmax.jl:8\n\n\n\n\n\n\npsp_setknobfine(io_psp::IO) \n\u00b6\n\n\nSet knob to fine.\n\n\nsource:\n\n\nGWinstekPSP\\src\\psp_setknobfine.jl:8\n\n\n\n\n\n\npsp_setknobnormal(io_psp::IO) \n\u00b6\n\n\nSet knob to normal.\n\n\nsource:\n\n\nGWinstekPSP\\src\\psp_setknobnormal.jl:8\n\n\n\n\n\n\npsp_setplimit(io_psp::IO,  plim::Real) \n\u00b6\n\n\nSet the power limit.\n\n\nsource:\n\n\nGWinstekPSP\\src\\psp_setplimit.jl:6\n\n\n\n\n\n\npsp_setplimitmax(io_psp::IO) \n\u00b6\n\n\nSet power limit to maximum value.\n\n\nsource:\n\n\nGWinstekPSP\\src\\psp_setplimitmax.jl:8\n\n\n\n\n\n\npsp_setrelayoff(io_psp::IO) \n\u00b6\n\n\nSet output relay off.\n\n\nsource:\n\n\nGWinstekPSP\\src\\psp_setrelayoff.jl:8\n\n\n\n\n\n\npsp_setrelayon(io_psp::IO) \n\u00b6\n\n\nSet output relay on.\n\n\nsource:\n\n\nGWinstekPSP\\src\\psp_setrelayon.jl:8\n\n\n\n\n\n\npsp_setvlimit(io_psp::IO,  vlim::Real) \n\u00b6\n\n\nSet the voltage limit.\n\n\nsource:\n\n\nGWinstekPSP\\src\\psp_setvlimit.jl:6\n\n\n\n\n\n\npsp_setvlimitmax(io_psp::IO) \n\u00b6\n\n\nSet voltage limit to maximum value.\n\n\nsource:\n\n\nGWinstekPSP\\src\\psp_setvlimitmax.jl:8\n\n\n\n\n\n\npsp_setvoltage(io_psp::IO,  voltage::Real) \n\u00b6\n\n\nSet output voltage.\n\n\nsource:\n\n\nGWinstekPSP\\src\\psp_setvoltage.jl:6\n\n\n\n\n\n\npsp_togglerelay(io_psp::IO) \n\u00b6\n\n\nToggle output relay.\n\n\nsource:\n\n\nGWinstekPSP\\src\\psp_togglerelay.jl:8\n\n\nInternal\n\n\n\n\n\n\nGWinstekPSP.Status \n\u00b6\n\n\nPower supply status\n\n\nsource:\n\n\nGWinstekPSP\\src\\psp_status.jl:10",
             "title": "API"
         },
         {
@@ -16,14 +21,199 @@
             "title": "GWinstekPSP"
         },
         {
+            "location": "/api/GWinstekPSP/#exported",
+            "text": "",
+            "title": "Exported"
+        },
+        {
+            "location": "/api/GWinstekPSP/#gwinstekpsppsp_status",
+            "text": "Read status of the power supply  source:  GWinstekPSP\\src\\psp_status.jl:93",
+            "title": "GWinstekPSP.psp_status \u00b6"
+        },
+        {
+            "location": "/api/GWinstekPSP/#gwinstekpsppsp_status_1",
+            "text": "Read status of the power supply  source:  GWinstekPSP\\src\\psp_status.jl:93",
+            "title": "GWinstekPSP.psp_status! \u00b6"
+        },
+        {
+            "location": "/api/GWinstekPSP/#psp_decrementilimitio_pspio",
+            "text": "Subtract one unit to the current limit.  source:  GWinstekPSP\\src\\psp_decrementilimit.jl:7",
+            "title": "psp_decrementilimit(io_psp::IO) \u00b6"
+        },
+        {
+            "location": "/api/GWinstekPSP/#psp_decrementplimitio_pspio",
+            "text": "Subtract one unit to the power limit.  source:  GWinstekPSP\\src\\psp_decrementplimit.jl:8",
+            "title": "psp_decrementplimit(io_psp::IO) \u00b6"
+        },
+        {
+            "location": "/api/GWinstekPSP/#psp_decrementvlimitio_pspio",
+            "text": "Add one unit to the voltage limit.  source:  GWinstekPSP\\src\\psp_decrementvlimit.jl:8",
+            "title": "psp_decrementvlimit(io_psp::IO) \u00b6"
+        },
+        {
+            "location": "/api/GWinstekPSP/#psp_decrementvoltageio_pspio",
+            "text": "Subtract one unit to the voltage setting.  source:  GWinstekPSP\\src\\psp_decrementvoltage.jl:8",
+            "title": "psp_decrementvoltage(io_psp::IO) \u00b6"
+        },
+        {
+            "location": "/api/GWinstekPSP/#psp_incrementilimitio_pspio",
+            "text": "Add one unit to the current limit.  source:  GWinstekPSP\\src\\psp_incrementilimit.jl:8",
+            "title": "psp_incrementilimit(io_psp::IO) \u00b6"
+        },
+        {
+            "location": "/api/GWinstekPSP/#psp_incrementplimitio_pspio",
+            "text": "Add one unit to the power limit.  source:  GWinstekPSP\\src\\psp_incrementplimit.jl:8",
+            "title": "psp_incrementplimit(io_psp::IO) \u00b6"
+        },
+        {
+            "location": "/api/GWinstekPSP/#psp_incrementvlimitio_pspio",
+            "text": "Add one unit to the voltage limit.  source:  GWinstekPSP\\src\\psp_incrementvlimit.jl:8",
+            "title": "psp_incrementvlimit(io_psp::IO) \u00b6"
+        },
+        {
+            "location": "/api/GWinstekPSP/#psp_incrementvoltageio_pspio",
+            "text": "Add one unit to the voltage setting.  source:  GWinstekPSP\\src\\psp_incrementvoltage.jl:8",
+            "title": "psp_incrementvoltage(io_psp::IO) \u00b6"
+        },
+        {
+            "location": "/api/GWinstekPSP/#psp_readcurrentio_pspio",
+            "text": "Read the output current.  source:  GWinstekPSP\\src\\psp_readcurrent.jl:7",
+            "title": "psp_readcurrent(io_psp::IO) \u00b6"
+        },
+        {
+            "location": "/api/GWinstekPSP/#psp_readflagsio_pspio",
+            "text": "Read the flags.  source:  GWinstekPSP\\src\\psp_readflags.jl:7",
+            "title": "psp_readflags(io_psp::IO) \u00b6"
+        },
+        {
+            "location": "/api/GWinstekPSP/#psp_readilimitio_pspio",
+            "text": "Read the output current limit.  source:  GWinstekPSP\\src\\psp_readilimit.jl:7",
+            "title": "psp_readilimit(io_psp::IO) \u00b6"
+        },
+        {
+            "location": "/api/GWinstekPSP/#psp_readplimitio_pspio",
+            "text": "Read the power limit.  source:  GWinstekPSP\\src\\psp_readplimit.jl:7",
+            "title": "psp_readplimit(io_psp::IO) \u00b6"
+        },
+        {
+            "location": "/api/GWinstekPSP/#psp_readpowerio_pspio",
+            "text": "Read the output power.  source:  GWinstekPSP\\src\\psp_readpower.jl:7",
+            "title": "psp_readpower(io_psp::IO) \u00b6"
+        },
+        {
+            "location": "/api/GWinstekPSP/#psp_readvlimitio_pspio",
+            "text": "Read the voltage limit.  source:  GWinstekPSP\\src\\psp_readvlimit.jl:7",
+            "title": "psp_readvlimit(io_psp::IO) \u00b6"
+        },
+        {
+            "location": "/api/GWinstekPSP/#psp_readvoltageio_pspio",
+            "text": "Read output voltage.  source:  GWinstekPSP\\src\\psp_readvoltage.jl:7",
+            "title": "psp_readvoltage(io_psp::IO) \u00b6"
+        },
+        {
+            "location": "/api/GWinstekPSP/#psp_savepresetio_pspio",
+            "text": "Save current configuration to EEPROM.  Power supply will power up in this state.  source:  GWinstekPSP\\src\\psp_savepreset.jl:11",
+            "title": "psp_savepreset(io_psp::IO) \u00b6"
+        },
+        {
+            "location": "/api/GWinstekPSP/#psp_setilimitio_pspio-ilimreal",
+            "text": "Set the current limit.  source:  GWinstekPSP\\src\\psp_setilimit.jl:6",
+            "title": "psp_setilimit(io_psp::IO,  ilim::Real) \u00b6"
+        },
+        {
+            "location": "/api/GWinstekPSP/#psp_setilimitmaxio_pspio",
+            "text": "Set current limit to maximum value.  source:  GWinstekPSP\\src\\psp_setilimitmax.jl:8",
+            "title": "psp_setilimitmax(io_psp::IO) \u00b6"
+        },
+        {
+            "location": "/api/GWinstekPSP/#psp_setknobfineio_pspio",
+            "text": "Set knob to fine.  source:  GWinstekPSP\\src\\psp_setknobfine.jl:8",
+            "title": "psp_setknobfine(io_psp::IO) \u00b6"
+        },
+        {
+            "location": "/api/GWinstekPSP/#psp_setknobnormalio_pspio",
+            "text": "Set knob to normal.  source:  GWinstekPSP\\src\\psp_setknobnormal.jl:8",
+            "title": "psp_setknobnormal(io_psp::IO) \u00b6"
+        },
+        {
+            "location": "/api/GWinstekPSP/#psp_setplimitio_pspio-plimreal",
+            "text": "Set the power limit.  source:  GWinstekPSP\\src\\psp_setplimit.jl:6",
+            "title": "psp_setplimit(io_psp::IO,  plim::Real) \u00b6"
+        },
+        {
+            "location": "/api/GWinstekPSP/#psp_setplimitmaxio_pspio",
+            "text": "Set power limit to maximum value.  source:  GWinstekPSP\\src\\psp_setplimitmax.jl:8",
+            "title": "psp_setplimitmax(io_psp::IO) \u00b6"
+        },
+        {
+            "location": "/api/GWinstekPSP/#psp_setrelayoffio_pspio",
+            "text": "Set output relay off.  source:  GWinstekPSP\\src\\psp_setrelayoff.jl:8",
+            "title": "psp_setrelayoff(io_psp::IO) \u00b6"
+        },
+        {
+            "location": "/api/GWinstekPSP/#psp_setrelayonio_pspio",
+            "text": "Set output relay on.  source:  GWinstekPSP\\src\\psp_setrelayon.jl:8",
+            "title": "psp_setrelayon(io_psp::IO) \u00b6"
+        },
+        {
+            "location": "/api/GWinstekPSP/#psp_setvlimitio_pspio-vlimreal",
+            "text": "Set the voltage limit.  source:  GWinstekPSP\\src\\psp_setvlimit.jl:6",
+            "title": "psp_setvlimit(io_psp::IO,  vlim::Real) \u00b6"
+        },
+        {
+            "location": "/api/GWinstekPSP/#psp_setvlimitmaxio_pspio",
+            "text": "Set voltage limit to maximum value.  source:  GWinstekPSP\\src\\psp_setvlimitmax.jl:8",
+            "title": "psp_setvlimitmax(io_psp::IO) \u00b6"
+        },
+        {
+            "location": "/api/GWinstekPSP/#psp_setvoltageio_pspio-voltagereal",
+            "text": "Set output voltage.  source:  GWinstekPSP\\src\\psp_setvoltage.jl:6",
+            "title": "psp_setvoltage(io_psp::IO,  voltage::Real) \u00b6"
+        },
+        {
+            "location": "/api/GWinstekPSP/#psp_togglerelayio_pspio",
+            "text": "Toggle output relay.  source:  GWinstekPSP\\src\\psp_togglerelay.jl:8",
+            "title": "psp_togglerelay(io_psp::IO) \u00b6"
+        },
+        {
+            "location": "/api/GWinstekPSP/#internal",
+            "text": "",
+            "title": "Internal"
+        },
+        {
+            "location": "/api/GWinstekPSP/#gwinstekpspstatus",
+            "text": "Power supply status  source:  GWinstekPSP\\src\\psp_status.jl:10",
+            "title": "GWinstekPSP.Status \u00b6"
+        },
+        {
             "location": "/api/",
-            "text": "API-INDEX",
+            "text": "API-INDEX\n\n\nMODULE: GWinstekPSP\n\n\n\n\nFunctions [Exported]\n\n\nGWinstekPSP.psp_status\n  Read status of the power supply\n\n\nGWinstekPSP.psp_status!\n  Read status of the power supply\n\n\n\n\nMethods [Exported]\n\n\npsp_decrementilimit(io_psp::IO)\n  Subtract one unit to the current limit.\n\n\npsp_decrementplimit(io_psp::IO)\n  Subtract one unit to the power limit.\n\n\npsp_decrementvlimit(io_psp::IO)\n  Add one unit to the voltage limit.\n\n\npsp_decrementvoltage(io_psp::IO)\n  Subtract one unit to the voltage setting.\n\n\npsp_incrementilimit(io_psp::IO)\n  Add one unit to the current limit.\n\n\npsp_incrementplimit(io_psp::IO)\n  Add one unit to the power limit.\n\n\npsp_incrementvlimit(io_psp::IO)\n  Add one unit to the voltage limit.\n\n\npsp_incrementvoltage(io_psp::IO)\n  Add one unit to the voltage setting.\n\n\npsp_readcurrent(io_psp::IO)\n  Read the output current.\n\n\npsp_readflags(io_psp::IO)\n  Read the flags.\n\n\npsp_readilimit(io_psp::IO)\n  Read the output current limit.\n\n\npsp_readplimit(io_psp::IO)\n  Read the power limit.\n\n\npsp_readpower(io_psp::IO)\n  Read the output power.\n\n\npsp_readvlimit(io_psp::IO)\n  Read the voltage limit.\n\n\npsp_readvoltage(io_psp::IO)\n  Read output voltage.\n\n\npsp_savepreset(io_psp::IO)\n  Save current configuration to EEPROM.  Power supply will power up in this state.\n\n\npsp_setilimit(io_psp::IO,  ilim::Real)\n  Set the current limit.\n\n\npsp_setilimitmax(io_psp::IO)\n  Set current limit to maximum value.\n\n\npsp_setknobfine(io_psp::IO)\n  Set knob to fine.\n\n\npsp_setknobnormal(io_psp::IO)\n  Set knob to normal.\n\n\npsp_setplimit(io_psp::IO,  plim::Real)\n  Set the power limit.\n\n\npsp_setplimitmax(io_psp::IO)\n  Set power limit to maximum value.\n\n\npsp_setrelayoff(io_psp::IO)\n  Set output relay off.\n\n\npsp_setrelayon(io_psp::IO)\n  Set output relay on.\n\n\npsp_setvlimit(io_psp::IO,  vlim::Real)\n  Set the voltage limit.\n\n\npsp_setvlimitmax(io_psp::IO)\n  Set voltage limit to maximum value.\n\n\npsp_setvoltage(io_psp::IO,  voltage::Real)\n  Set output voltage.\n\n\npsp_togglerelay(io_psp::IO)\n  Toggle output relay.\n\n\n\n\nTypes [Internal]\n\n\nGWinstekPSP.Status\n  Power supply status",
             "title": "API Index"
         },
         {
             "location": "/api/#api-index",
             "text": "",
             "title": "API-INDEX"
+        },
+        {
+            "location": "/api/#module-gwinstekpsp",
+            "text": "",
+            "title": "MODULE: GWinstekPSP"
+        },
+        {
+            "location": "/api/#functions-exported",
+            "text": "GWinstekPSP.psp_status   Read status of the power supply  GWinstekPSP.psp_status!   Read status of the power supply",
+            "title": "Functions [Exported]"
+        },
+        {
+            "location": "/api/#methods-exported",
+            "text": "psp_decrementilimit(io_psp::IO)   Subtract one unit to the current limit.  psp_decrementplimit(io_psp::IO)   Subtract one unit to the power limit.  psp_decrementvlimit(io_psp::IO)   Add one unit to the voltage limit.  psp_decrementvoltage(io_psp::IO)   Subtract one unit to the voltage setting.  psp_incrementilimit(io_psp::IO)   Add one unit to the current limit.  psp_incrementplimit(io_psp::IO)   Add one unit to the power limit.  psp_incrementvlimit(io_psp::IO)   Add one unit to the voltage limit.  psp_incrementvoltage(io_psp::IO)   Add one unit to the voltage setting.  psp_readcurrent(io_psp::IO)   Read the output current.  psp_readflags(io_psp::IO)   Read the flags.  psp_readilimit(io_psp::IO)   Read the output current limit.  psp_readplimit(io_psp::IO)   Read the power limit.  psp_readpower(io_psp::IO)   Read the output power.  psp_readvlimit(io_psp::IO)   Read the voltage limit.  psp_readvoltage(io_psp::IO)   Read output voltage.  psp_savepreset(io_psp::IO)   Save current configuration to EEPROM.  Power supply will power up in this state.  psp_setilimit(io_psp::IO,  ilim::Real)   Set the current limit.  psp_setilimitmax(io_psp::IO)   Set current limit to maximum value.  psp_setknobfine(io_psp::IO)   Set knob to fine.  psp_setknobnormal(io_psp::IO)   Set knob to normal.  psp_setplimit(io_psp::IO,  plim::Real)   Set the power limit.  psp_setplimitmax(io_psp::IO)   Set power limit to maximum value.  psp_setrelayoff(io_psp::IO)   Set output relay off.  psp_setrelayon(io_psp::IO)   Set output relay on.  psp_setvlimit(io_psp::IO,  vlim::Real)   Set the voltage limit.  psp_setvlimitmax(io_psp::IO)   Set voltage limit to maximum value.  psp_setvoltage(io_psp::IO,  voltage::Real)   Set output voltage.  psp_togglerelay(io_psp::IO)   Toggle output relay.",
+            "title": "Methods [Exported]"
+        },
+        {
+            "location": "/api/#types-internal",
+            "text": "GWinstekPSP.Status   Power supply status",
+            "title": "Types [Internal]"
         }
     ]
 }
