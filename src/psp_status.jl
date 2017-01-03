@@ -19,17 +19,17 @@ type Status
   "Current limit"
   ilimit  :: Float64
   "Power limit"
-  plimit  :: Float64 
+  plimit  :: Float64
   "True if output relay is on"
   isrelayon  :: Bool
   "True if power supply temperature is too high"
-  isoverheat :: Bool 
-  "True if knob is in fine mode"  
+  isoverheat :: Bool
+  "True if knob is in fine mode"
   isknobfine :: Bool
   "True if knob is unlocked"
-  isknobunlock :: Bool 
+  isknobunlock :: Bool
   "True if power supply is in remote control mode"
-  isremote   :: Bool 
+  isremote   :: Bool
   "True if front panel controls are locked"
   islock     :: Bool
 end
