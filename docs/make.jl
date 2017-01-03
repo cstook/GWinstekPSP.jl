@@ -18,6 +18,8 @@ makedocs(
 deploydocs(
   repo = "github.com/cstook/GWinstekPSP.jl.git",
   target = "build",
+  julia = "0.5",
+  osname = "windows",
   deps = nothing,
   make = nothing,
   )
