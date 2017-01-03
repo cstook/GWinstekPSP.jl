@@ -2,5 +2,5 @@
 *.jl.*.cov
 *.jl.mem
 *.lnk
-site/
-build/
+docs/site/
+docs/build/
