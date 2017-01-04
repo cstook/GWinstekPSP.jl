@@ -16,4 +16,4 @@ The [julia documentation](http://docs.julialang.org) section on installing unreg
 
 ##Documentation
 
-The documentation is [here](http://cstook.github.io/GWinstekPSP.jl)
+The latest documentation is [here](http://cstook.github.io/GWinstekPSP.jl/latest)

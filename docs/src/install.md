@@ -1,4 +1,4 @@
-#Installation
+# Installation
 
 GWinstekPSP.jl is currently unregistered.  It can be installed using ```Pkg.clone```.
 ```julia
