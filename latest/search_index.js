@@ -5,7 +5,15 @@ var documenterSearchIndex = {"docs": [
     "page": "Home",
     "title": "Home",
     "category": "page",
-    "text": "#GWinstekPSP.jlGWinstekPSP simplifies control of GW instek PSP-Series power supplies."
+    "text": ""
+},
+
+{
+    "location": "index.html#GWinstekPSP.jl-1",
+    "page": "Home",
+    "title": "GWinstekPSP.jl",
+    "category": "section",
+    "text": "GWinstekPSP simplifies control of GW instek PSP-Series power supplies."
 },
 
 {
@@ -13,7 +21,15 @@ var documenterSearchIndex = {"docs": [
     "page": "Instalation",
     "title": "Instalation",
     "category": "page",
-    "text": "#InstallationGWinstekPSP.jl is currently unregistered.  It can be installed using Pkg.clone.Pkg.clone(\"https://github.com/cstook/GWinstekPSP.jl.git\")The julia documentation section on installing unregistered packages provides more information."
+    "text": ""
+},
+
+{
+    "location": "install.html#Installation-1",
+    "page": "Instalation",
+    "title": "Installation",
+    "category": "section",
+    "text": "GWinstekPSP.jl is currently unregistered.  It can be installed using Pkg.clone.Pkg.clone(\"https://github.com/cstook/GWinstekPSP.jl.git\")The julia documentation section on installing unregistered packages provides more information."
 },
 
 {
