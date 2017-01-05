@@ -2,7 +2,11 @@
 # SI
 export psp_setilimit
 
-"Set the current limit."
+"""
+    psp_setilimit(io, current_limit)
+
+Set the current limit.
+"""
 function psp_setilimit(io_psp::IO,ilim::Real)
   @assert ilim<10 "current limit must be < 10A"
   ilimstring = @sprintf("%01.2f",ilim)

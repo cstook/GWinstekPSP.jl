@@ -3,7 +3,11 @@ export psp_readpower
 
 const READ_POWER = [0x57, 0x0d]
 
-"Read the output power."
+"""
+    psp_readpower(io)
+
+Read the output power.
+"""
 function psp_readpower(io_psp::IO)
   write(io_psp, READ_POWER)
   powerstring = bytestring(read(io_psp,UInt8, 9))

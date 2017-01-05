@@ -3,7 +3,13 @@ export psp_readflags
 
 const READ_FLAGS = [0x46, 0x0d]
 
-"Read the flags."
+"""
+    psp_readflags(io)
+
+Read the flags.
+
+Returns the tuple (isrelayon, isoverheat, isknobfine, isknobunlock, isremote, islock)
+"""
 function psp_readflags(io_psp::IO)
   write(io_psp, READ_FLAGS)
   flagsstring = bytestring(read(io_psp,UInt8, 10))
@@ -19,4 +25,3 @@ function psp_readflags(io_psp::IO)
   islock = flagsstring[7] == '1'
   return(isrelayon,isoverheat,isknobfine,isknobunlock,isremote,islock)
 end
-

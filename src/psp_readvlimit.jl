@@ -3,7 +3,11 @@ export psp_readvlimit
 
 const READ_VLIMIT = [0x55, 0x0d]
 
-"Read the voltage limit."
+"""
+    psp_readvlimit(io)
+
+Read the voltage limit.
+"""
 function psp_readvlimit(io_psp::IO)
   write(io_psp, READ_VLIMIT)
   vlimitstring = bytestring(read(io_psp,UInt8, 6))

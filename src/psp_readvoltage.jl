@@ -3,7 +3,11 @@ export psp_readvoltage
 
 const READ_VOLTAGE = [0x56, 0x0d]
 
-"Read output voltage."
+"""
+    psp_readvoltage(io)
+
+Read the output voltage.
+"""
 function psp_readvoltage(io_psp::IO)
   write(io_psp, READ_VOLTAGE)
   voltagestring = bytestring(read(io_psp,UInt8, 9))

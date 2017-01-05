@@ -2,7 +2,11 @@
 # SU
 export psp_setvlimit
 
-"Set the voltage limit."
+"""
+    psp_setvlimit(io, voltage_limit)
+    
+Set the voltage limit.
+"""
 function psp_setvlimit(io_psp::IO,vlim::Real)
   @assert vlim<100 "voltage limit must be < 100V"
   vlimstring = @sprintf("%02d",vlim)

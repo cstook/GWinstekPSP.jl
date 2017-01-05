@@ -3,7 +3,11 @@ export psp_readplimit
 
 const READ_PLIMIT = [0x50, 0x0d]
 
-"Read the power limit."
+"""
+    psp_readplimit(io)
+
+Read the power limit.
+"""
 function psp_readplimit(io_psp::IO)
   write(io_psp, READ_PLIMIT)
   plimitstring = bytestring(read(io_psp,UInt8, 7))

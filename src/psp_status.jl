@@ -6,7 +6,25 @@ export psp_status!, psp_status
 
 const READ_STATUS = [0x4c, 0x0d]
 
-"Power supply status"
+"""
+Power supply status
+
+**fields**
+
+- `voltage`     -- Output voltage
+- `current`     -- Output current
+- `power`       -- Output power
+- `vlimit`      -- Voltage limit
+- `ilimit`      -- Current limit
+- `plimit`      -- Power limit
+- `isrelayon`   -- True if output relay is on
+- `isoverheat`  -- True if power supply temperature is too high
+- `isknobfine`  -- True if knob is in fine mode
+- `isknobunlock`-- True if knob is unlocked
+- `isremote`    -- True if power supply is in remote control mode
+- `islock`      -- True if front panel controls are locked
+
+"""
 type Status
   "Output voltage"
   voltage :: Float64
@@ -52,6 +70,11 @@ function Base.show(io::IO, s::Status)
   println(io,"islock       = ",s.islock)
 end
 
+"""
+    psp_status!(io, status)
+
+Read status of the power supply and update status.
+"""
 function psp_status!(io_psp::IO, s::Status)
     write(io_psp, READ_STATUS)  # obtain all status from power supply
     status = bytestring(read(io_psp,UInt8, 40))
@@ -84,10 +107,12 @@ function psp_status!(io_psp::IO, s::Status)
     return s
 end
 
+"""
+    psp_status!(io)
+
+Read status of the power supply and return status.
+"""
 function psp_status(io_psp::IO)
   s = Status()
   psp_status!(io_psp,s)
 end
-
-"Read status of the power supply"
-psp_status, psp_status!

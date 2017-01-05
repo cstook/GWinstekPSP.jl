@@ -2,7 +2,11 @@
 # SP
 export psp_setplimit
 
-"Set the power limit."
+"""
+    psp_setplimit(io, power_limit)
+
+Set the power limit.
+"""
 function psp_setplimit(io_psp::IO,plim::Real)
   @assert plim<1000 "power limit must be < 1000W"
   plimstring = @sprintf("%03d",plim)

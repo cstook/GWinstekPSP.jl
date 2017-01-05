@@ -4,7 +4,7 @@ export psp_decrementilimit
 
 const DECREMENT_ILIMIT = [0x53, 0x49, 0x2D, 0x0D]
 """
-    psp_decrementilimit(io_psp::IO)
+    psp_decrementilimit(io)
 
 Subtract one unit to the current limit.
 """

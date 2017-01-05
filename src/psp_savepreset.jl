@@ -6,7 +6,9 @@ export psp_savepreset
 const SAVE_PRESET = [0x45, 0x45, 0x50, 0x0d]
 
 """
-Save current configuration to EEPROM.  Power supply will power up in this state.
+    psp_savepreset(io)
+
+Save current configuration to EEPROM.
 """
 function psp_savepreset(io_psp::IO)
   write(io_psp, SAVE_PRESET)
