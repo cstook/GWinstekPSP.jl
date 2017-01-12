@@ -73,7 +73,7 @@ end
 """
     psp_status!(io, status)
 
-Read status of the power supply and update status.
+Read status of the power supply and update `status`.
 """
 function psp_status!(io_psp::IO, s::Status)
     write(io_psp, READ_STATUS)  # obtain all status from power supply
@@ -108,7 +108,7 @@ function psp_status!(io_psp::IO, s::Status)
 end
 
 """
-    psp_status!(io)
+    psp_status(io)
 
 Read status of the power supply and return status.
 """
