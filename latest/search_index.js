@@ -93,7 +93,7 @@ var documenterSearchIndex = {"docs": [
     "page": "API",
     "title": "GWinstekPSP.psp_status",
     "category": "Function",
-    "text": "psp_status!(io)\n\nRead status of the power supply and return status.\n\n\n\n"
+    "text": "psp_status(io)\n\nRead status of the power supply and return status.\n\n\n\n"
 },
 
 {
